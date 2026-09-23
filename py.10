@@ -1,0 +1,6 @@
+# cook your dish here
+T=int(input())
+for i in range(T):
+    X,N=map(int,input().split())
+    Y=(X//10)*N 
+    print(Y)
