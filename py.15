@@ -1,0 +1,6 @@
+# cook your dish here
+T=int(input())
+for i in range(T):
+    N,M=map(int,input().split())
+    S=N-M
+    print(max(0,S))aq,æm5263532
