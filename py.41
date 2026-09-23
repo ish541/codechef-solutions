@@ -1,0 +1,10 @@
+# cook your dish here
+A,B,X,Y=map(int,input().split())
+C=(A*2)+B
+Z=(X*2)+Y
+if C>Z:
+    print("MESSI")
+elif C==Z:
+    print("EQUAL")
+else:
+    print("RONALDO")
