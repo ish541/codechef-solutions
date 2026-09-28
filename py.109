@@ -1,0 +1,8 @@
+# cook your dish here
+T=int(input())
+for i in range(T):
+    X,Y=map(int, input().split())
+    if 100 * Y <= 107 * X:
+        print("YES")
+    else:
+        print("NO")

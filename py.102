@@ -1,0 +1,6 @@
+# cook your dish here
+T=int(input())
+for i in range(T):
+    X,Y,Z=map(int, input().split())
+    max_seats = min(Y, 10 * X)
+    print(max_seats * Z)

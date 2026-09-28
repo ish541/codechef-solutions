@@ -1,0 +1,7 @@
+# cook your dish here
+X=int(input())
+Y=X+7
+if Y>170:
+    print("YES")
+else:
+    print("No")

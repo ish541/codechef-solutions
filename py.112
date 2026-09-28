@@ -1,0 +1,23 @@
+# cook your dish here
+# Function to solve a single testcase
+def solve():
+    # Read C, X, and Y from the input
+    C, X, Y = map(int, input().split())
+    
+    # Calculate the number of chocolates Chef needs to buy
+    chocolates_to_buy = C - X
+    
+    # Calculate the total cost
+    total_cost = chocolates_to_buy * Y
+    
+    # Print the result for the current testcase
+    print(total_cost)
+
+def main():
+    # Read the number of test cases
+    T = int(input())
+    for _ in range(T):
+        solve()
+
+if __name__ == '__main__':
+    main()

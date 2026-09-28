@@ -1,0 +1,12 @@
+# cook your dish here
+T=int(input())
+for i in range(T):
+    X,Y=map(int,input().split())
+    total_expenditure = Y * 30
+    
+    # Check if Akshat has enough money
+    if X >= total_expenditure:
+        print("YES")
+    else:
+        print("NO")
+    

@@ -1,0 +1,11 @@
+# cook your dish here
+T=int(input())
+for i in range(T):
+    W,X,Y,Z=map(int,input().split())
+    A=W+Y*Z
+    if A>X:
+        print("Overflow")
+    elif A==X:
+        print("Filled")
+    else:
+        print("Unfilled")

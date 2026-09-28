@@ -1,0 +1,7 @@
+# cook your dish here
+T=int(input())
+for i in range(T):
+    X1,Y1,X2,Y2=map(int,input().split())
+    Z1=X1+Y1
+    Z2=X2+Y2
+    print(min(Z1,Z2))

@@ -1,0 +1,13 @@
+# cook your dish here
+T=int(input())
+for i in range(T):
+    X,Y=map(int,input().split())
+    disposable_cost = 100 * X
+    cloth_cost = 10 * Y
+    
+    # Compare costs (tie goes to cloth)
+    if disposable_cost < cloth_cost:
+        print("Disposable")
+    else:
+        print("Cloth")
+    

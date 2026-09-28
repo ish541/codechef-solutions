@@ -1,0 +1,8 @@
+# cook your dish here
+T=int(input ())
+for i in range(T):
+    A,B,C,X=map(int,input().split())
+    
+        print("Yes")
+    else:
+        print("No")

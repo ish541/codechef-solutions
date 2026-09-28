@@ -1,0 +1,7 @@
+# cook your dish here
+T=int(input())
+for i in range(T):
+    N,M=map(int,input().split())
+    X=N*2
+    Y=M*4
+    print(X+Y)

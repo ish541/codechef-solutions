@@ -1,0 +1,8 @@
+# cook your dish here
+T=int(input())
+for i in range (T):
+    Na,Nb,Nc=map(int,input().split())
+    if Na > Nb + Nc or Nb > Na + Nc or Nc > Na + Nb:
+        print("Yes")
+    else:
+        print("No")

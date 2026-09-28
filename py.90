@@ -1,0 +1,12 @@
+# cook your dish here
+T=int(input())
+for i in range(T):
+    A,B,C,D=map(int,input().split())
+    X=A-C
+    Y=B-D
+    if X<Y:
+        print("FIRST")
+    elif Y<X:
+        print("SECOND")
+    else:
+        print("ANY")

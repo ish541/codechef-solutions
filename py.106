@@ -1,0 +1,11 @@
+# Read the number of test cases
+test = int(input())
+
+for i in range(test):
+    # Correctly read X, Y, and Z for each test case
+    x, y, z = map(int, input().split())
+    
+    # Calculate and print the maximum number of mangoes
+    max_mangoes = (z - y) // x
+    print(max_mangoes)
+    

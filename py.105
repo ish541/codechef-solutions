@@ -1,0 +1,6 @@
+# cook your dish here
+T=int(input())
+for i in range(T):
+    W,X,Y,Z=map(int,input().split())
+
+    print(W + Z * (X - Y))

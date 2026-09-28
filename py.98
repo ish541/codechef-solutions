@@ -1,0 +1,12 @@
+# cook your dish here
+# Read all 4 space-separated integers from the input
+problems = list(map(int, input().split()))
+
+# Count how many weeks had at least 10 problems solved
+count = 0
+for p in problems:
+    if p >= 10:
+        count += 1
+
+# Print the final count
+print(count)

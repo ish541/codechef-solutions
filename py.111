@@ -1,0 +1,6 @@
+# cook your dish here
+T=int(input())
+for i in range(T):
+    N,X=map(int,input().split())
+    ans = N // (3 * X)
+    print(ans)
